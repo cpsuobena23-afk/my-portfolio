@@ -1,0 +1,439 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Creative Designer</title>
+    <meta name="description" content="Personal portfolio of a creative designer. Explore my skills, projects, and education.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">PORT<span>FOLIO.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navMenu">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text reveal">
+                    <p class="eyebrow">
+                        <span class="status-dot"></span>
+                        WELCOME TO MY WORLD
+                    </p>
+
+                    <h1>
+                        Hello, I'm<br>
+                        <span class="gradient-text">JUN MARK OBENA </span>
+                    </h1>
+
+                    <h2 class="hero-role">
+                        Creative <span id="typingText">Designer</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I create modern, creative, and visually engaging
+                        designs that turn ideas into meaningful digital
+                        experiences.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work ↗
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank"
+                           rel="noopener noreferrer" aria-label="GitHub">GH</a>
+                        <a href="https://www.linkedin.com/" target="_blank"
+                           rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+                        <a href="https://www.behance.net/" target="_blank"
+                           rel="noopener noreferrer" aria-label="Behance">Be</a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrap reveal">
+                    <div class="image-glow"></div>
+
+                    <div class="profile-frame">
+                        <img
+                            src="profile.jpg"
+                            alt="Portrait of Your Name"
+                            class="profile-image"
+                        >
+                    </div>
+
+                    <div class="floating-card card-top">
+                        <span class="floating-icon"></span>
+                        <div>
+                            <strong>Creative Mind</strong>
+                            <small>Ideas into reality</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-bottom">
+                        <span class="purple-symbol"></span>
+                        <div>
+                            <strong>Design</strong>
+                            <small>With passion</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-down">
+                SCROLL TO EXPLORE <span>↓</span>
+            </a>
+        </section>
+
+
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span class="gradient-text">Me</span></h2>
+                    <p>A little introduction about who I am.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card glass-card reveal">
+                        <span class="large-icon">✧</span>
+                        <h3>Who Am I?</h3>
+                        <p>
+                           Hi! I'm **Jun Mark Obena**, from Culipapa, Hinobaan, Negros Occidental. 
+                           I am currently a second-year student at CPSU Hinobaan Campus, 
+                           aspiring to become a future web developer.
+                        </p>
+                    </div>
+
+                    <div class="about-card glass-card reveal">
+                        <span class="large-icon">◎</span>
+                        <h3>My Goal</h3>
+                        <p>
+                            My goal is to become a well-known and successful web developer
+                            by continuously improving my programming skills, studying hard, and learning new technologies. 
+                            I want to grow as a programmer, overcome challenges, and gain more experience by creating useful and innovative projects. 
+                            Through dedication, hard work, and continuous learning, I hope to become a skilled developer who can make a positive impact on others through technology.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-note reveal">
+                    <span>✦</span>
+                    <p>
+                       "Great developers are not born overnight. 
+                       They are built through hard work, continuous learning, 
+                       and the courage to turn ideas into reality."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHAT I CAN DO</p>
+                    <h2>My <span class="gradient-text">Skills</span></h2>
+                    <p>Tools and abilities I use to bring ideas to life.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card glass-card reveal">
+                        <div class="skill-icon">✎</div>
+                        <h3>Graphic Design</h3>
+                        <p>Creative layouts, visual content, and branding.</p>
+                        <div class="skill-tags">
+                            <span>Canva</span><span>Typography</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card glass-card reveal">
+                        <div class="skill-icon">▧</div>
+                        <h3>UI / UX Design</h3>
+                        <p>Clean interfaces and user-friendly experiences.</p>
+                        <div class="skill-tags">
+                            <span>Figma</span><span>Wireframes</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card glass-card reveal">
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>Web Development</h3>
+                        <p>Building responsive and attractive web pages.</p>
+                        <div class="skill-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card glass-card reveal">
+                        <div class="skill-icon">◈</div>
+                        <h3>Creative Thinking</h3>
+                        <p>Problem-solving, visual storytelling, and ideas.</p>
+                        <div class="skill-tags">
+                            <span>Creativity</span><span>Planning</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY RECENT WORK</p>
+                    <h2>Featured <span class="gradient-text">Projects</span></h2>
+                    <p>A selection of projects and concepts I've worked on.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card glass-card reveal">
+                        <div class="project-visual visual-purple">
+                            <span class="visual-label">01 / WEB DESIGN</span>
+                            <div class="mock-window">
+                                <div class="mock-dots">● ● ●</div>
+                                <div class="mock-content">
+                                    <span>CREATE.</span>
+                                    <div class="mock-line"></div>
+                                    <div class="mock-line short"></div>
+                                    <div class="mock-button"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-type">WEB DESIGN</p>
+                            <h3>Creative Portfolio</h3>
+                            <p>
+                                A modern portfolio concept with a dark
+                                theme, bold typography, and responsive layout.
+                            </p>
+                            <div class="skill-tags">
+                                <span>HTML</span><span>CSS</span>
+                            </div>
+                            <a href="#contact" class="project-link">
+                                Discuss a similar project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card reveal">
+                        <div class="project-visual visual-blue">
+                            <span class="visual-label">02 / UI DESIGN</span>
+                            <div class="app-preview">
+                                <div class="app-circle">✦</div>
+                                <div class="app-line"></div>
+                                <div class="app-line short"></div>
+                                <div class="app-boxes">
+                                    <span></span><span></span><span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-type">UI / UX</p>
+                            <h3>Mobile App Concept</h3>
+                            <p>
+                                A sample mobile interface focused on clear
+                                navigation, visual balance, and usability.
+                            </p>
+                            <div class="skill-tags">
+                                <span>Figma</span><span>UI/UX</span>
+                            </div>
+                            <a href="#contact" class="project-link">
+                                Discuss a similar project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card reveal">
+                        <div class="project-visual visual-pink">
+                            <span class="visual-label">03 / GRAPHIC DESIGN</span>
+                            <div class="poster-preview">
+                                <span>THINK</span>
+                                <span class="poster-middle">OUTSIDE</span>
+                                <span>THE BOX.</span>
+                                <small>CREATIVE CONCEPT / 2026</small>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-type">GRAPHIC DESIGN</p>
+                            <h3>Creative Poster</h3>
+                            <p>
+                                A bold poster concept combining expressive
+                                typography, shapes, and vibrant contrast.
+                            </p>
+                            <div class="skill-tags">
+                                <span>Canva</span><span>Typography</span>
+                            </div>
+                            <a href="#contact" class="project-link">
+                                Discuss a similar project ↗
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="projects-disclaimer">
+                    Note: These are sample project concepts. Replace them
+                    with your actual work when you're ready.
+                </p>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY LEARNING JOURNEY</p>
+                    <h2>My <span class="gradient-text">Education</span></h2>
+                    <p>Where I learn, grow, and develop my skills.</p>
+                </div>
+
+                <div class="education-list">
+                    <article class="education-card glass-card reveal">
+                        <div class="education-icon">✦</div>
+                        <div>
+                            <span class="education-date">2025 – 2026</span>
+                            <h3>BSIT/ SECOND YEAR</h3>
+                            <h4>CENTRAL PHILIPPINES STATE UNIVERSITY</h4>
+                            <p>
+                                Learning design, technology, and creative
+                                problem-solving while developing my portfolio.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="education-card glass-card reveal">
+                        <div class="education-icon">✧</div>
+                        <div>
+                            <span class="education-date">2023– 2024</span>
+                            <h3>Senior High School</h3>
+                            <h4>CULIPAPA SENIOR HIGH SCHOOL</h4>
+                            <p>
+                                Building a foundation in communication,
+                                collaboration, and creative thinking.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact <span class="gradient-text">Me</span></h2>
+                    <p>Have an idea or project? Let's talk about it.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info glass-card reveal">
+                        <h3>Let's create something amazing.</h3>
+                        <p>
+                            I'm always interested in learning, sharing
+                            ideas, and exploring creative opportunities.
+                        </p>
+
+                        <div class="contact-detail">
+                            <span class="contact-icon">✉</span>
+                            <div>
+                                <small>Email</small>
+                                <a href="junmarkobena10@gmail.com">
+                                    junmarkobena10@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span class="contact-icon">⌖</span>
+                            <div>
+                                <small>Location</small>
+                                <p>CULIPAPA HINOBAAN NEGROS OCCIDENTAL, PHILIPPINES</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span class="contact-icon">↗</span>
+                            <div>
+                                <small>Availability</small>
+                                <p>Open to learning and opportunities</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form glass-card reveal" id="contactForm">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name"
+                            placeholder="Enter your name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email"
+                            placeholder="Enter your email" required>
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject"
+                            placeholder="What is this about?" required>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="Write your message here..."
+                            required></textarea>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            Send Message ↗
+                        </button>
+
+                        <p class="form-note" id="formNote" aria-live="polite">
+                            Your email app will open to send the message.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">PORT<span>FOLIO.</span></a>
+            <p>Designed with creativity and passion.</p>
+            <p>© <span id="year"></span> JUN MARK OBENA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top"
+        aria-label="Back to top">↑</button>
+
+</body>
+</html>
